@@ -1,0 +1,113 @@
+NOME: Francisco Garrido
+NMEC: 132667
+
+git clone https://github.com/FranciscoG37xx/LI2025-Teste03_Final.git
+cd LI2025-Teste03
+mkdir A132667
+cd A132667
+echo "Teste de LI 2025/2026" > README.md
+cd ..
+git add .
+git commit -m "2ª tarefa concluída"
+git push origin main
+
+history -c
+git clone https://github.com/FranciscoG37xx/LI2025-Teste03_Final.git
+cd LI2025-Teste03
+git add .
+git commit -m "3ª tarefa concluída"
+git push origin main
+
+git add .
+git commit -m "4ª tarefa"
+git push origin main
+
+git pull origin main
+cp index.html disciplinas.html
+git add .
+git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+git push origin main
+git pull origin main
+
+git add .
+git commit -m "5ª tarefa cumprida"
+git push origin main
+
+git pull origin main
+history > meusComandosAzure.txt
+cat meusComandosAzure.txt
+git add .
+git commit -m "history azure"
+git push origin main
+git pull origin main
+history > meusComandosLOCAIS.txt
+cat meusComandosLOCAIS.txt
+git add .
+git commit -m "Tarefa 6 cumprida"
+git push origin main
+=============================================================================
+1  git clone https://github.com/FranciscoG37xx/LI2025-Teste03_Final.git
+    2  nano index.html
+    3  ls
+    4  git clone https://github.com/FranciscoG37xx/LI2025-Teste03_Final.git
+    5  cd ..
+    6  cd desktop
+    7  cd LI2025-Teste03_Final
+    8  rem index.html
+    9  rm index.html
+   10  ls
+   11  git add .
+   12  git commit -m "3ª tarefa concluída"
+   13  git push origin main
+   14  ls
+   15  cd ..
+   16  cd LI2025-Teste03_Final
+   17  git pull origin main
+   18  ls
+   19  cd A132667/
+   20  ls
+   21  cd ..
+   22  git add.
+   23  git add .
+   24  git commit -m "4ª tarefa"
+   25  git push origin main
+   26  git pull origin main
+   27  cp index.html disciplinas.html
+   28  cd A132667/
+   29  ls
+   30  cp index.html disciplinas.html
+   31  git add .
+   32  git commit -m "5ª tarefa cumprida"
+   33  git reset --soft HEAD~
+   34  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+   35  git push origin main
+   36  git pull origin main
+   37  cd..
+   38  cd ..
+   39  git pull origin main
+   40  cd ..
+   41  git pull origin main
+   42  cd LI2025-Teste03_Final
+   43  git add .
+   44  git commit -m "5ª tarefa cumprida"
+   45  git push origin main
+   46  cd ..
+   47  cd LI2025-Teste03_Final
+   48  git pull origin main
+   49  history > meusComandosAzure.txt
+-----------------------------------------------------------------------------------------
+cd desktop
+ssh -i DEMOLABINFO_key.pem azureuser@4.178.190.58
+cd ..
+cd Documentos
+ls
+cd Desktop
+cd ..
+cd Documentos
+cd Documents
+ cd Github
+ cd LI2025-Teste03_Final
+ git pull origin main
+ history > meusComandosLOCAIS.txt
+ doskey /history
+
